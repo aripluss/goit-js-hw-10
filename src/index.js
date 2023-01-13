@@ -28,7 +28,6 @@ function onInput(event) {
     .then(data => {
       if (data.length > 10) {
         clearAll();
-
         Notiflix.Notify.info(
           'Too many matches found. Please enter a more specific name.'
         );
